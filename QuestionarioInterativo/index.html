@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" type="text/css" href="src/assets/css/Onemilionquestion.css">
+    <script type="text/javascript" src="src/js/arquive.js"></script>
+</head>
+<body>
+    <div class="center-box">
+        <h1 id="instruction">Responda Sim ou Não</h1>
+        <h2 id="question">O Márcio merece um aumento de salário?</h2> 
+        <div class="buttons">
+            <button id="sim-button" onclick="navigateToSayYES()">SIM</button>
+            <button id="nao-button" onmouseover="playSoundAndMoveNaoButton()">NÃO</button>  
+        </div>    
+    </div>   
+    <audio id="nao-sound" src="src/assets/sounds/naoconsegueneh.mp3"></audio>
+    <audio id="sim-sound" src="src/assets/sounds/arcoiro.mp3"></audio>
+    <div id="gif-container">
+        <img id="bottom-gif" src="src/assets/images/Moisés.gif" alt="Gif" />
+    </div>
+</body>
+</html>

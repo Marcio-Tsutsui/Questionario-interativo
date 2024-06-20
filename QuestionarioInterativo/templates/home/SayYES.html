@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SayYES</title>
+    <link rel="stylesheet" type="text/css" href="/src/assets/css/rightanswer.css">
+    <script type="text/javascript" src="src/js/RightAnswer.js" defer></script>
+    </head>
+<body onmouseover="execSom()">
+    <div class="top-text">
+        <h1>Parabéns!</h1>
+        <h2>Seu funcionário subiu de nível!!</h2>
+    </div>
+    <div class="transparent-box">
+        <p>Atributos melhorados:</p>
+        <div class="attributes">
+        <div class="animated-text">
+            <span id="salario">Salário:</span>
+            <span class="positive" id="increase">40%</span>
+        </div>
+        <div class="animated-text">
+            <span id="pro-atividade">Pró-Atividade:</span>
+            <span class="positive" id="pro-atividade-increase">38%</span>
+        </div>
+        <div class="animated-text">
+            <span id="gratidao">Gratidão à empresa:</span>
+            <span class="positive" id="gratidao-increase">23%</span>
+        </div>
+        <div class="animated-text">
+            <span id="demissao">Vontade de se demitir:</span>
+            <span class="negative" id="demissao-increase">-65%</span>
+        </div>
+        <div class="animated-text">
+            <span id="mau-humor">Mau humor:</span>
+            <span class="negative" id="mau-humor-increase">-25%</span>
+        </div>
+    </div>
+    </div>
+    <div class="view">
+  <div class="plane main">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
+    <audio style="visibility:hidden" autoplay loop="loop" id='playaudio'>
+		<source src="/src/assets/sounds/Sandstorm.mp3" type="audio/mp3"/>
+	</audio>    
+</body>
+</html>
